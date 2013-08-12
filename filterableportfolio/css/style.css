@@ -20,7 +20,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background: url('..images/bg.gif');
+	background: url('../images/bg.gif');
 	padding: 0;
 	margin: 0;
 	border-top: 10px solid #9d2e2c;
