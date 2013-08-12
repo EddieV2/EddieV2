@@ -119,6 +119,7 @@ nav ul li:last-child:after {
 
 .work figure dl {
 	opacity: 0;
+	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
