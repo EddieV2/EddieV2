@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" version="1.0" width="468pt" height="473pt" viewBox="0 0 468 473" preserveAspectRatio="xMidYMid meet">
+  <g transform="translate(0,473) scale(0.208000,-0.208000)" fill="#000000" stroke="none">
+    <path d="M40 2175 l0 -75 170 0 170 0 0 -945 0 -945 -170 0 -170 0 0 -75 0 -75 1010 0 1009 0 6 33 c3 17 36 213 74 435 l68 403 -75 -3 -76 -3 -17 -95 c-65 -365 -183 -519 -454 -591 -72 -20 -113 -22 -417 -27 l-338 -4 0 457 0 457 158 -4 c139 -3 163 -6 205 -27 89 -43 131 -122 144 -268 l6 -73 73 0 74 0 0 445 0 445 -74 0 -73 0 -6 -77 c-10 -141 -50 -214 -144 -259 -53 -26 -67 -28 -210 -32 l-153 -4 0 417 0 417 338 -5 c278 -4 347 -7 397 -22 138 -39 244 -124 304 -244 34 -66 66 -187 77 -288 l7 -63 73 0 c52 0 74 4 74 13 1 6 -21 180 -47 385 l-47 372 -983 0 -983 0 0 -75z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Cyrillic letter E</dc:title>
+        <dc:date>2010-09-22T20:51:09</dc:date>
+        <dc:description>Cyrillic letter E</dc:description>
+        <dc:source>http://openclipart.org/detail/86341/cyrillic-letter-e-by-mireille</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mireille</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Cyrillic</rdf:li>
+            <rdf:li>alphabet</rdf:li>
+            <rdf:li>black</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>letter</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
