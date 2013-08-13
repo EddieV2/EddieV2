@@ -9,11 +9,24 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Filterable Portfolio</title>
 	<meta name="description" content="loremLorem ipsum dolor sit amet, consectetuer adipiscing elit.">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300|PT+Sans+Narrow">
+	<!-- WP 8 Viewport fix - http://mattstow.com/responsive-design-in-ie10-on-windows-phone-8.html -->
+	<script type="text/javascript">
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+	  var msViewportStyle = document.createElement("style");
+	  msViewportStyle.appendChild(
+	    document.createTextNode(
+	      "@-ms-viewport{width:auto!important}"
+	    )
+	  );
+	  document.getElementsByTagName("head")[0].
+	    appendChild(msViewportStyle);
+	}
+	</script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="js/js.js"></script>
 

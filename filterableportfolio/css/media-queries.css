@@ -1,3 +1,8 @@
+/* IE 10 Viewport Fix - http://mattstow.com/responsive-design-in-ie10-on-windows-phone-8.html */
+@-ms-viewport {
+	width: device-width;
+}
+
 /* Small viewports — Old monitors, netbooks, tablets (landscape), etc. */
 
 @media only screen and (max-width: 965px) {
