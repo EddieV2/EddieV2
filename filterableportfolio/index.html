@@ -28,7 +28,8 @@
 	}
 	</script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
 
 	<!-- Pure instead of Normalize -->
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
@@ -45,17 +46,21 @@
 
 			<nav>
 				<ul>
-					<li id="all">All</li>
-					<li id="web">Web</li>
-					<li id="print">Print</li>
-					<li id="illustration">Illustration</li>
-					<li id="logo">Logo</li>
+					<li id="all"><a href="#" class="selected" data-filter="*">All</a></li>
+
+					<li id="voice"><a href="#" data-filter=".voice">Voice-over</a></li>
+
+					<li id="web"><a href="#" data-filter=".web">Web Development</a></li>
+
+					<li id="health"><a href="#" data-filter=".health">Nutrition & Fitness</a></li>
+
+					<li id="blog"><a href="http://blog.eddiev2.com">Blog</a></li>
 				</ul>
 			</nav>
 
 			<section class="work">
 
-				<figure class="illustration">
+				<figure class="Web Development">
 					<a href="#">
 						<img src="images/1.png" alt="" />
 						<dl>
@@ -67,26 +72,26 @@
 					</a>
 				</figure>
 
-				<figure class="print">
+				<figure class="voice">
 					<a href="#">
 						<img src="images/2.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Print</dd>	
+								<dd>Voice-over</dd>	
 						</dl>
 					</a>	
 				</figure>	
 
-				<figure class="logo">
+				<figure class="health">
 					<a href="#">
 						<img src="images/3.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Logo</dd>	
+								<dd>health</dd>	
 						</dl>
 					</a>	
 				</figure>	
@@ -103,14 +108,14 @@
 					</a>	
 				</figure>	
 
-				<figure class="print">
+				<figure class="voice">
 					<a href="#">
 						<img src="images/5.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Print</dd>	
+								<dd>Voice-over</dd>	
 						</dl>
 					</a>	
 				</figure>	
@@ -127,14 +132,14 @@
 					</a>	
 				</figure>	
 
-				<figure class="print">
+				<figure class="voice">
 					<a href="#">
 						<img src="images/7.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Print</dd>	
+								<dd>Voice-over</dd>	
 						</dl>
 					</a>	
 				</figure>	
@@ -151,29 +156,17 @@
 					</a>	
 				</figure>	
 
-				<figure class="illustration">
+				<figure class="Web Development">
 					<a href="#">
 						<img src="images/9.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Illustration</dd>	
+								<dd>Web Development</dd>	
 						</dl>
 					</a>	
 				</figure>	
-
-				<figure class="print">
-					<a href="#">
-						<img src="images/10.png" alt="" />
-						<dl>
-							<dt>Client</dt>
-								<dd>Envato</dd>
-							<dt>Role</dt>
-								<dd>Print</dd>	
-						</dl>
-					</a>	
-				</figure>		
 
 				<figure class="web">
 					<a href="#">
@@ -187,26 +180,26 @@
 					</a>	
 				</figure>	
 
-				<figure class="logo">
+				<figure class="health">
 					<a href="#">
 						<img src="images/12.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Logo</dd>	
+								<dd>health</dd>	
 						</dl>
 					</a>	
 				</figure>	
 
-				<figure class="illustration">
+				<figure class="Web Development">
 					<a href="#">
 						<img src="images/13.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Illustration</dd>	
+								<dd>Web Development</dd>	
 						</dl>
 					</a>	
 				</figure>	
@@ -223,26 +216,26 @@
 					</a>	
 				</figure>	
 
-				<figure class="logo">
+				<figure class="health">
 					<a href="#">
 						<img src="images/15.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Logo</dd>	
+								<dd>health</dd>	
 						</dl>
 					</a>	
 				</figure>	
 
-				<figure class="print">
+				<figure class="voice">
 					<a href="#">
 						<img src="images/16.png" alt="" />
 						<dl>
 							<dt>Client</dt>
 								<dd>Envato</dd>
 							<dt>Role</dt>
-								<dd>Print</dd>	
+								<dd>Voice-over</dd>	
 						</dl>
 					</a>	
 				</figure>	
