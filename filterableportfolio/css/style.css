@@ -77,6 +77,12 @@ nav ul li a:-webkit-any-link {
 	cursor: pointer;
 }
 
+nav ul li a {
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 nav ul li a:hover {
 	color: #000;
 }
