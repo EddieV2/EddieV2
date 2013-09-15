@@ -132,6 +132,7 @@ nav ul li:last-child:after {
 .work figure a img {
 	height: 100%;
 	width: 100%;
+	border: none;
 }
 
 .work figure dl {
