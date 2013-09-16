@@ -55,6 +55,8 @@
 					<li id="health"><a href="#" data-filter=".health">Nutrition & Fitness</a></li>
 
 					<li id="blog"><a href="http://eddiev2.tumblr.com">Blog</a></li>
+
+					<li id="hire"><a href="contact.php">Hire Me</a></li>
 				</ul>
 			</nav>
 
